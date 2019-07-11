@@ -4,10 +4,10 @@ name: Varun Kumar Khare
 
 # Username (this should match the folder name)
 authors:
-- varun
+- divyat
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Graduate
@@ -40,19 +40,6 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.in/citations?user=0NUkPQcAAAAJ&hl=en 
-- icon: github
-  icon_pack: fab
-  link: https://github.com/vkkhare
-
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/varun-khare-6a991a108/
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:varunkhare1234@gmail.com'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/varunkhare1234
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
@@ -69,7 +56,3 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-
-I have recently graduated from IIT Kanpur in CSE. I would be joining [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html). Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies.
-
-My research interest lie in deep learning with a predilection for computer vision, Augmented Reality and Human Computer Interaction.

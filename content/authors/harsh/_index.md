@@ -4,10 +4,10 @@ name: Varun Kumar Khare
 
 # Username (this should match the folder name)
 authors:
-- varun
+- harsh
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Graduate

@@ -27,7 +27,14 @@ date_format = "Jan 2006"
   description = """
   Developing statical models for automation of neuroscience data extraction.
   """
-
+[[experience]]
+  title = "Machine Learning Consultant"
+  company = "UrbanYogi"
+  company_url = ""
+  location = "Banglore"
+  date_start = "2018-11-25"
+  date_end = "2019-01-20"
+  description = """--"""
 [[experience]]
   title = "Visiting Research Scholar"
   company = "NexT++ centre"
