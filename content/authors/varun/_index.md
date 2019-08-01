@@ -72,4 +72,6 @@ email: ""
 
 I have recently graduated from IIT Kanpur in CSE. I would be joining [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html). Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies.
 
-My research interest lie in deep learning with a predilection for computer vision, Augmented Reality and Human Computer Interaction.
+My research interest lie in deep learning with a predilection for computer vision, Augmented Reality, NLP and Human Computer Interaction. 
+
+[**Checkout my Resume**](files/cv.pdf). The details of the ongoing as well as past projects can also be found below. 

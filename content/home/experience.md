@@ -22,10 +22,10 @@ date_format = "Jan 2006"
   company = "MPI Brain Research Institute"
   company_url = ""
   location = "Frankfurt"
-  date_start = "2019-07-28"
+  date_start = "2019-08-12"
   date_end = ""
   description = """
-  Developing statical models for automation of neuroscience data extraction.
+  Developing statical models for automation of neuroscientific data extraction like automated neuron reconstruction from electron microscopy scans. Guidance by [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
   """
 [[experience]]
   title = "Machine Learning Consultant"
@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   location = "Banglore"
   date_start = "2018-11-25"
   date_end = "2019-01-20"
-  description = """--"""
+  description = """Remotely coordinated **scalable deployment** of **human pose estimation** models for pose analysis and pose correction in daily exercises via augmented reality application."""
 [[experience]]
   title = "Visiting Research Scholar"
   company = "NexT++ centre"
@@ -42,7 +42,20 @@ date_format = "Jan 2006"
   location = "NUS Singapore"
   date_start = "2018-05-07"
   date_end = "2018-07-28"
-  description = """Developed (in collaboration with Zaw Lin, post-graduate student, NUS) a neural network architecture for 3d object instance recognition in RGB images under the guidance of [Prof. Tat Seng Chua](https://www.chuatatseng.com/)"""
+  description = """
+**Objective**: _Monocular 3D object instance recognition and Pose Estimation_
+
+* Worked under the guidance of [Prof. Tat Seng Chua](https://www.chuatatseng.com/)
+
+* Proposed (alongside a post graduate student) a novel end-to-end architecture consisting of two modules for robust pose prediction and **3D instance recognition** via extracting **Marr’s 2.5 D sketches** from images.
+
+* The learned embedding explicitly **disentangles** a shape vector and a pose vector,  which alleviates both pose bias for 3D shape retrieval and categorical bias for pose estimation
+
+* One sub module learns to reconstruct 3D model, from the 2.5D sketches, in its canonical viewpoint via **multi-task learning DNNs**. Another NN sub module uses **Faster R-CNN** style anchor boxes to predict the **6 DoF** poses in continuous domain.
+
+* The method achieves state of the art **10.3 median error** for pose estimation and **0.592 top-1-accuracy** for category agnostic 3D object retrieval on the **Pascal3D+dataset**.
+
+"""
 
 [[experience]]
   title = "Lead Software Developer"
@@ -52,5 +65,18 @@ date_format = "Jan 2006"
   date_start = "2016-05-01"
   date_end = "2018-07-28"
   description = """
-  Responsibilities include:"""
+  **Objective:** _Industrial grade deployment of ML backend and android application for NYO_
+
+* Lead a team of **16 people** at NYO.
+
+* **ML systems:**
+
+	*  **Collaborative Filtering** for Recommendation engine
+	*  Automated response collection from handwritten characters markings on response sheets for grading
+	*  NLU **chatbot** using [RASA](https://rasa.com/) pipeline with **NER, Relationship extraction** and **quantity association** for extracting required information from user.
+* **Android app:**  REST APIs, SSE notifications, app-caching, Continuous integration with Jenkins, data and property binding, Reactive Java for observables
+
+
+
+"""
 +++
