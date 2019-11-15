@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 55  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -25,7 +25,15 @@ date_format = "Jan 2006"
   date_start = "2019-08-12"
   date_end = ""
   description = """
-  Developing statical models for automation of neuroscientific data extraction like automated neuron reconstruction from electron microscopy scans. Guidance by [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
+**Objective** : _Myelin segmentation in 3D mSEM and connectomic analysis_
+
+* We used **3D Unet** trained on **multi Scanning Electron Microscope** raw data to generate segmentation masks
+
+* Dynamically oversampling (with linearly decaying probability) myelinated voxel cubes to provide non-zero gradients countering **highly skewed data** (0.01% positively labeled voxels)
+
+* Reached over **90% precision-recall**. Using the detection to analyze thalamocortical neurons with myelinated
+axons at the beginning of innervation.
+Guidance by [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
   """
 [[experience]]
   title = "Machine Learning Consultant"
