@@ -36,14 +36,6 @@ axons at the beginning of innervation.
 Guidance by [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
   """
 [[experience]]
-  title = "Machine Learning Consultant"
-  company = "UrbanYogi"
-  company_url = ""
-  location = "Banglore"
-  date_start = "2018-11-25"
-  date_end = "2019-01-20"
-  description = """Remotely coordinated **scalable deployment** of **human pose estimation** models for pose analysis and pose correction in daily exercises via augmented reality application."""
-[[experience]]
   title = "Visiting Research Scholar"
   company = "NexT++ centre"
   company_url = ""

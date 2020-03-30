@@ -18,12 +18,12 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include computer vision, augmented reality and deep learning.
+bio: My research interests include program synthesis, privacy and deep learning.
 
 interests:
 - Machine Learning
+- Privacy and Security 
 - Mixed/Augmented reality
-- Cognitive Science
 - Neuroscience
 
 education:
@@ -70,8 +70,8 @@ email: ""
 #- Visitors
 ---
 
-I have recently graduated from IIT Kanpur in CSE. I would be joining [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html). Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies.
+I graduated from IIT Kanpur in CSE in 2019 and since then, have been working at [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html). I am also a core developer at [OpenMined](https://openmined.org) where we are trying to build the first open source library for privacy preserving machine learning. Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies where o worked on Zero shot Learning.
 
-My research interest lie in deep learning with a predilection for computer vision, Augmented Reality, NLP and Human Computer Interaction. 
+My research interest lie in Machine Learning with a predilection for program synthesis, computer vision, and security. 
 
 [**Checkout my Resume**](files/cv.pdf). The details of the ongoing as well as past projects can also be found below. 
