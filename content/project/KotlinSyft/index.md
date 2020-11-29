@@ -2,9 +2,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "KotlinSyft"
-summary: "This is the android worker Library for [PySyft](https://github.com/OpenMined/PySyft)
+summary: "KotlinSyft makes it easy for you to **train and execute PySyft models on Android devices**. This allows you to utilize training data located directly on the device itself, bypassing the need to send a user's data to a central server.
 
-Of course, [PySyft](https://github.com/openmined/pysyft) has the ability to run in its own environment but the training procedure needs to deployed on the mobile workers using Torchscript.This is where KotlinSyft comes. **KotlinSyft employs P2P connectivity for realization of distributed pysyft protocols.** "
+[The first use case for our library is here](https://blog.openmined.org/apheris-openmined-pytorch-announcement)"
 
 tags: ["security","deep_learning","privacy","open_source"]
 categories: []
@@ -40,15 +40,24 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+KotlinSyft makes it easy for you to **train and execute PySyft models on Android devices**. This allows you to utilize training data located directly on the device itself, bypassing the need to send a user's data to a central server. This is known as [federated learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html).
 
-PySyft is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using
-[Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html),
-[Differential Privacy](https://en.wikipedia.org/wiki/Differential_privacy),
-and Encrypted Computation (like
-[Multi-Party Computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation)
-and  [Homomorphic Encryption (HE)](https://en.wikipedia.org/wiki/Homomorphic_encryption))
-within the main Deep Learning frameworks like PyTorch and TensorFlow. Join the movement on
-[Slack](http://slack.openmined.org/).
+- :gear: **Training and inference** of any PySyft model written in PyTorch or TensorFlow
+- :bust_in_silhouette: Allows all data to stay on the user's device
+- :zap: Support for full multi-threading / background service execution
+- :key: Support for **JWT authentication** to protect models from Sybil attacks
+- :+1: A set of **inbuilt best practices** to prevent apps from over using device resources.
+  - :electric_plug: **Charge detection** to allow background training only when device is connected to charger
+  - :zzz: **Sleep and wake detection** so that the app does not occupy resource when user starts using the device
+  - :money_with_wings: **Wifi and metered network detection** to ensure the model updates do not use all the available data quota
+  - :no_bell: All of these smart defaults are easily are **overridable**
+- :mortar_board: Support for both reactive and callback patterns so you have your freedom of choice (_in progress_)
+- :lock: Support for **secure multi-party computation** and **secure aggregation** protocols using **peer-to-peer WebRTC** connections (_in progress_).
 
+There are a variety of additional privacy-preserving protections that may be applied, including [differential privacy](https://towardsdatascience.com/understanding-differential-privacy-85ce191e198a), [muliti-party computation](https://www.inpher.io/technology/what-is-secure-multiparty-computation), and [secure aggregation](https://research.google/pubs/pub45808/).
 
-KotlinSyft employs P2P connectivity for realization of distributed pysyft protocols on android workers. The local training is performed using PyTorch as a background service. [https://blog.openmined.org/apheris-openmined-pytorch-announcement](The first use case for our andorid worker library is here)
+[OpenMined](https://openmined.org) set out to build the **world's first open-source ecosystem for federated learning on web and mobile**. KotlinSyft is a part of this ecosystem, responsible for bringing secure federated learning to Android devices. You may also train models on iOS devices using [SwiftSyft](https://github.com/OpenMined/SwiftSyft) or in web browsers using [syft.js](https://github.com/OpenMined/syft.js).
+
+If you want to know how scalable federated systems are built, [Towards Federated Learning at Scale](https://arxiv.org/pdf/1902.01046.pdf) is a fantastic introduction! 
+
+Join us in the movement at [Slack](http://slack.openmined.org/)!

@@ -24,7 +24,7 @@ interests:
 - Machine Learning
 - Privacy and Security 
 - Mixed/Augmented reality
-- Neuroscience
+- Cognitive Science
 
 education:
   courses:
@@ -70,7 +70,11 @@ email: ""
 #- Visitors
 ---
 
-I graduated from IIT Kanpur in CSE in 2019 and since then, have been working at [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html). I am also a core developer at [OpenMined](https://openmined.org) where we are trying to build the first open source library for privacy preserving machine learning. Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies where o worked on Zero shot Learning.
+I graduated from IIT Kanpur in CSE in 2019. After graduation, I went for a year long stint at [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
+
+I am currently working with [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/) as a research intern at UC Berkeley. My project focusses on continual learning using program synthesis.
+
+I am also a core developer at [OpenMined](https://openmined.org) where we are trying to build the first open source library for privacy preserving machine learning. Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies where I worked on Zero shot Learning.
 
 My research interest lie in Machine Learning with a predilection for program synthesis, computer vision, and security. 
 

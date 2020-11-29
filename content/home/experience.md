@@ -18,22 +18,49 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Research Intern"
+  company = "University of California, Berkeley"
+  company_url = ""
+  location = "Berkeley, USA"
+  date_start = "2020-06-01"
+  date_end = ""
+  description = """
+*Advisor* : [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/)
+
+**Objective** : _Neural symbolic hybrids for few shot recognition_
+* Using **program induction** to sample programs for **few shot image classification**. 
+
+* Training procedure involves Supervised pre-training with **teacher-forcing** followed by reinforcement learning using [Hindsight Experience Replay](https://arxiv.org/abs/1707.01495).
+
+* We use **memory augmented networks** with attention to allow multiple chains of execution.
+
+**Objective** : _Meta learning in SQL query synthesis_
+* Divided the [Spider](https://yale-lily.github.io/spider) dataset into 13 meta categories.
+
+* We use **transformers** to generate embeddings for natural language question tokens.
+
+* A **meta-training phase** for decoder to learn predicting the **structure** of SQL query
+
+* A **domain specific training** phase for token prediction using a separate multi head attention module.
+  """
+[[experience]]
   title = "Visiting Research Scholar"
   company = "MPI Brain Research Institute"
   company_url = ""
   location = "Frankfurt"
   date_start = "2019-08-12"
-  date_end = ""
+  date_end = "2020-03-15"
   description = """
+*Advisor* : [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html)
+
 **Objective** : _Myelin segmentation in 3D mSEM and connectomic analysis_
 
-* We used **3D Unet** trained on **multi Scanning Electron Microscope** raw data to generate segmentation masks
+* We used **3D Unet** trained on **multi Scanning Electron Microscope** raw data to generate 3D segmentation masks
 
 * Dynamically oversampling (with linearly decaying probability) myelinated voxel cubes to provide non-zero gradients countering **highly skewed data** (0.01% positively labeled voxels)
 
-* Reached over **90% precision-recall**. Using the detection to analyze thalamocortical neurons with myelinated
-axons at the beginning of innervation.
-Guidance by [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
+* Reached over **90% precision-recall**. Using the detection to analyze thalamocortical neurons with myelinated axons at the beginning of innervation.
+
   """
 [[experience]]
   title = "Visiting Research Scholar"
@@ -43,9 +70,9 @@ Guidance by [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedte
   date_start = "2018-05-07"
   date_end = "2018-07-28"
   description = """
-**Objective**: _Monocular 3D object instance recognition and Pose Estimation_
+*Advisor* : [Prof. Tat Seng Chua](https://www.chuatatseng.com/)
 
-* Worked under the guidance of [Prof. Tat Seng Chua](https://www.chuatatseng.com/)
+**Objective**: _Monocular 3D object instance recognition and Pose Estimation_
 
 * Proposed (alongside a post graduate student) a novel end-to-end architecture consisting of two modules for robust pose prediction and **3D instance recognition** via extracting **Marr’s 2.5 D sketches** from images.
 
