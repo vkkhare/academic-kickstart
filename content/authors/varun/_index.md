@@ -70,11 +70,9 @@ email: ""
 #- Visitors
 ---
 
-I graduated from IIT Kanpur in CSE in 2019. After graduation, I went for a year long stint at [MPI Brain Research Institute, Frankfurt](https://brain.mpg.de/institute/mission-vision.html) as a visiting research scholar under [Prof. Moritz Helmstaedter](http://brain.mpg.de/research/helmstaedter-department.html).
+I am currently leading the Federated Learning team at [OpenMined](https://openmined.org) where we are building the first open source library for privacy preserving machine learning. Prior to this, I was a research scholar at UC Berkeley working on neural program synthesis. 
 
-I am currently working with [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/) as a research intern at UC Berkeley. My project focusses on continual learning using program synthesis.
-
-I am also a core developer at [OpenMined](https://openmined.org) where we are trying to build the first open source library for privacy preserving machine learning. Prior to this I was advised by [Prof. Piyush Rai](https://www.cse.iitk.ac.in/users/piyush/) in my undergraduate studies where I worked on Zero shot Learning.
+I finished my undergraduate studies from IIT Kanpur in Computer Science and Engineering. After graduation, I went for a year long stint at [MPI for Brain Research](https://brain.mpg.de/home.html) as a visiting research scholar exploring the intricacies of human brain.
 
 My research interest lie in Machine Learning with a predilection for program synthesis, computer vision, and security. 
 
